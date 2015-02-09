@@ -1,0 +1,8 @@
+{
+  "NODE_ENV": "development",
+  "PORT": 3000,
+  "MONGO_URL": "mongodb://localhost:27017/entizePlanning",
+  "REDIS_DB": "1",
+  "SESSION_SECRET": "d372f351ecc8a1485af0891df533ab13a49827f6",
+  "SESSION_COOKIE": "a7e8af58b843c20f9257f229c36f8bac684c6518"
+}
