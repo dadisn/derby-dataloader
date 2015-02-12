@@ -1,6 +1,6 @@
 {
   "name": "derby-dataloader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Load JSON objects into a MongoDB collection with Derby & Racer",
   "main": "index.js",
   "scripts": {
