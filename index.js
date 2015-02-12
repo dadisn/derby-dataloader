@@ -78,6 +78,10 @@ model.fetch(collection, function(err) {
   if(err) throw err;
 
   for(var i = 0; i < len; i++) {
-    model.add(collection, arr[i], terminate);
+    if(arr[i].hasOwnProperty('id')) {
+      model.set(collection + '.' + arr[i].id, arr[i], terminate);
+    } else {
+      model.add(collection, arr[i], terminate);
+    }
   }
 });
